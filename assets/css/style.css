@@ -115,26 +115,31 @@ aside nav ul li a:hover {
   line-height: 150%;
   margin-bottom: 3%;
 }
-#Lounger {
+#Lounger,
+#Experience {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 10%;
 }
-#Lounger img {
-  width: 50%;
-  height: 40vh;
+#Lounger img,
+#Experience img {
+  width: 58%;
+  height: 50vh;
 }
-#Lounger article {
+#Lounger article,
+#Experience article {
   padding: 0 5%;
   width: 50%;
 
   /* height: 50vh; */
 }
-#Lounger article h2 {
+#Lounger article h2,
+#Experience article h2 {
   margin-bottom: 10%;
 }
-#Lounger article p {
+#Lounger article p,
+#Experience article p {
   line-height: 150%;
   margin-bottom: 3%;
 }
