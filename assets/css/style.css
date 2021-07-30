@@ -27,6 +27,9 @@ h6,
 p {
   color: #867772;
 }
+p {
+  font-size: 12px;
+}
 h2 {
   color: #ebccc2;
 }
@@ -41,7 +44,7 @@ header .contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1% 5%;
+  padding: 1.5% 3.5%;
 }
 header div .S_media {
   display: flex;
@@ -58,19 +61,61 @@ header div a:hover {
   color: #fff;
   text-decoration: underline;
 }
+/* side navbar */
+aside {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  position: fixed;
+  /* left: 0; */
+}
+aside nav ul li {
+  padding: 5% 0%;
+  margin-left: 15%;
+}
+aside nav ul li a:hover {
+  color: #fff;
+}
+
+/* About */
 #About {
   text-align: center;
+  padding: 0 5%;
 }
-#About h2 {
+#About div:first-child h2 {
   width: 30%;
   padding: 7% 20%;
-  /* text-align: center; */
+  text-align: start;
+  font-weight: 150;
+  margin-bottom: 3%;
 }
-#About img {
-  width: 90%;
+#About div:first-child img {
+  width: 100%;
   height: 50%;
+  margin-bottom: 10%;
+}
+#About div:last-child {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 4%;
+}
+#About div:last-child img {
+  width: 38%;
+  height: 30%;
+}
+#About div:last-child article {
+  width: 41%;
+  text-align: start;
+}
+#About div:last-child article h2 {
   margin-bottom: 5%;
 }
+#About div:last-child article p {
+  line-height: 150%;
+  margin-bottom: 3%;
+}
+
 /* laptop */
 @media screen and (max-width: 992px) {
   body {
