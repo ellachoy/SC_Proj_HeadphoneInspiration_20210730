@@ -14,14 +14,14 @@ ul li {
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: #867772;
 }
 h2,
 h4,
 h5,
 h6,
 p {
-  color: #fff;
+  color: #867772;
 }
 
 /* header */
@@ -40,9 +40,9 @@ header div .S_media {
 header div .S_media li {
   margin-left: 5%;
 }
-header div .S_media li:hover {
+header div a:hover {
+  color: #fff;
   text-decoration: underline;
-  color: #ebccc2;
 }
 
 /* laptop */
