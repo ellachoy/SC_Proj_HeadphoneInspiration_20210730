@@ -76,10 +76,15 @@ aside div a {
 aside div i {
   color: #867772;
   height: 6%;
+  cursor: pointer;
+  transition: transform 300ms ease;
 }
-aside div a:hover {
+aside a:hover,
+aside i:hover {
   color: #fff;
+  transform: scale(2.1);
 }
+
 
 aside div .line {
   border-left: 3px solid #867772;
