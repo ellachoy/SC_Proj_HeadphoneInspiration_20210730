@@ -62,6 +62,27 @@ header div a:hover {
   color: #fff;
   text-decoration: underline;
 }
+/* side navbar */
+aside {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 0%;
+  padding: 5% 25%;
+}
+aside div a {
+  margin: 0 5px;
+}
+
+aside .line {
+  display: none;
+}
+aside i {
+  visibility: hidden;
+}
+header div {
+  visibility: hidden;
+}
 
 h2 {
   font-size: 2em;
@@ -85,19 +106,24 @@ form fieldset {
   color: #ebccc2;
 }
 form fieldset div {
-  padding: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 10%;
 }
 label {
-  font-size: 2.5em;
-  margin: 10% 5% 0 10%;
+  font-size: 2em;
+  margin: 5% 5% 0 10%;
 }
 input {
-  width: 40%;
+  font-size: 1em;
+  width: 30%;
   height: 3vh;
   background-color: rgb(234, 204, 194);
+  margin-top: 5%;
 }
 #email {
-  margin-left: 12%;
+  margin-left: 7%;
 }
 input[type="button"] {
   margin: 5% 30%;
