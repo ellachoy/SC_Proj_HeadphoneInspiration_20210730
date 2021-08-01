@@ -94,7 +94,7 @@ aside div .line {
 }
 #shop .BG {
   background: url(../img/section-composition4.jpg) center/cover no-repeat;
-  width: 100%;
+  width: 60%;
   height: 100vh;
 }
 #shop div:last-child {
