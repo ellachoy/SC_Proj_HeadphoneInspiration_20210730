@@ -117,14 +117,65 @@ aside div .line {
 /* laptop */
 @media screen and (max-width: 992px) {
   body {
-    background-color: yellow;
+    /* background-color: yellow;
+  } */
   }
-}
 
-/* smartphone */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: mediumseagreen;
+  /* smartphone */
+  @media screen and (max-width: 600px) {
+    body {
+      /* background-color: mediumseagreen; */
+    }
+    aside {
+      display: flex;
+      justify-content: space-evenly;
+      top: 0%;
+      padding: 0% 25%;
+      text-align: center;
+    }
+    aside div a {
+      margin: 0 5px;
+      cursor: pointer;
+      transition: transform 300ms ease;
+    }
+    aside div a:hover {
+      transform: scale(2.1);
+    }
+    aside .line {
+      display: none;
+    }
+    aside i {
+      visibility: hidden;
+    }
+    header div {
+      visibility: hidden;
+    }
+  }
+  #Lounger {
+    display: block;
+  }
+
+  #Lounger img {
+    width: 100%;
+    height: 40vh;
+  }
+  #Lounger article {
+    padding: 0 6%;
+    width: 50%;
+    height: 30vh;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #Lounger article h2 {
+    padding-top: 30%;
+    margin-bottom: 10%;
+    font-size: 1em;
+  }
+  #Lounger article p {
+    text-align: start;
+    line-height: 130%;
+
+    font-size: 0.5em;
   }
 }
 

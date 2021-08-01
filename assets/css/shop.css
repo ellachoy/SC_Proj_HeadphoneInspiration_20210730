@@ -94,11 +94,11 @@ aside div .line {
 }
 #shop .BG {
   background: url(../img/section-composition4.jpg) center/cover no-repeat;
-  width: 60%;
+  width: 100%;
   height: 100vh;
 }
 #shop div:last-child {
-  padding: 5%;
+  padding: 1%;
   text-align: center;
 }
 #shop div:last-child h2 {
@@ -118,7 +118,7 @@ aside div .line {
 }
 #shop div:last-child img {
   position: relative;
-  animation: move 0.3s linear 0s infinite alternate;
+  animation: move 1.3s linear 2s infinite;
   margin-top: 0;
 }
 @keyframes move {
@@ -128,11 +128,11 @@ aside div .line {
   }
   25% {
     top: 0px;
-    left: 50px;
+    left: 40px;
   }
   50% {
-    top: 0px;
-    right: 50px;
+    top: 50px;
+    right: 70px;
   }
   100% {
     top: 0px;
@@ -143,14 +143,64 @@ aside div .line {
 /* laptop */
 @media screen and (max-width: 992px) {
   body {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
 /* smartphone */
 @media screen and (max-width: 600px) {
   body {
-    background-color: mediumseagreen;
+    /* background-color: mediumseagreen; */
+  }
+  aside {
+    display: flex;
+    justify-content: space-evenly;
+    top: 0%;
+    padding: 0% 25%;
+    text-align: center;
+  }
+  aside div a {
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 300ms ease;
+  }
+  aside div a:hover {
+    transform: scale(2.1);
+  }
+  aside .line {
+    display: none;
+  }
+  aside i {
+    visibility: hidden;
+  }
+  header div {
+    visibility: hidden;
+  }
+
+  #shop div:last-child {
+    padding: 0 5%;
+    text-align: center;
+  }
+  #shop div:last-child img {
+    height: 50vh;
+  }
+
+  #shop div:last-child h2 {
+    font-size: 1em;
+    margin-bottom: 5%;
+  }
+  #shop div:last-child h5 {
+    font-size: 0.7em;
+    margin-bottom: 5%;
+  }
+  #shop div:last-child a {
+    width: 7%;
+    padding: 1% 2%;
+  }
+  #shop div:last-child img {
+    position: relative;
+    animation: move 5s linear 2s infinite;
+    margin-top: 0;
   }
 }
 

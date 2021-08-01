@@ -150,14 +150,86 @@ section article:last-child p {
 /* laptop */
 @media screen and (max-width: 992px) {
   body {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
 /* smartphone */
 @media screen and (max-width: 600px) {
   body {
-    background-color: mediumseagreen;
+    /* background-color: mediumseagreen; */
+  }
+  aside {
+    display: flex;
+    justify-content: space-evenly;
+    top: 0%;
+    padding: 0% 25%;
+    text-align: center;
+  }
+  aside div a {
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 300ms ease;
+  }
+  aside div a:hover {
+    transform: scale(2.1);
+  }
+  aside .line {
+    display: none;
+  }
+  aside i {
+    visibility: hidden;
+  }
+  header div {
+    visibility: hidden;
+  }
+  #inspiration {
+    padding: 0 15%;
+  }
+  #inspiration video {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 5%;
+  }
+  section article {
+    padding: 0 15%;
+  }
+
+  section h5 {
+    font-size: 0.5em;
+    color: #ebccc2;
+    font-weight: 100;
+    margin-bottom: 2%;
+  }
+  section h2 {
+    font-size: 1em;
+    margin-bottom: 3%;
+  }
+  section p {
+    font-size: 0.5em;
+  }
+  section article:first-child ul li {
+    border: 1px solid white;
+    width: 10%;
+    height: 3vh;
+    margin-bottom: 2%;
+  }
+  section article:first-child ul li a {
+    font-size: 8px;
+  }
+  section article:first-child p {
+    margin-bottom: 5%;
+  }
+  section article:last-child {
+    margin-bottom: 5%;
+  }
+  section article:last-child img {
+    width: 50%;
+    height: 25vh;
+  }
+  section article:last-child p {
+    line-height: 130%;
+    letter-spacing: 1px;
   }
 }
 

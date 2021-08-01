@@ -50,10 +50,12 @@ header .contact {
 header div .S_media {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   margin: 0 50px;
 }
 header div .S_media li {
   margin-left: 8%;
+  align-items: center;
 }
 header > img {
   width: 3%;
@@ -62,6 +64,7 @@ header div a:hover {
   color: #fff;
   text-decoration: underline;
 }
+
 /* side navbar */
 aside {
   width: 50%;
@@ -136,14 +139,77 @@ aside div .line {
 /* laptop */
 @media screen and (max-width: 992px) {
   body {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
 /* smartphone */
 @media screen and (max-width: 600px) {
   body {
-    background-color: mediumseagreen;
+    /* background-color: mediumseagreen; */
+  }
+  aside {
+    display: flex;
+    justify-content: space-evenly;
+    top: 0%;
+    padding: 0% 25%;
+    text-align: center;
+  }
+  aside div a {
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 300ms ease;
+  }
+  aside div a:hover {
+    transform: scale(2.1);
+  }
+  aside .line {
+    display: none;
+  }
+  aside i {
+    visibility: hidden;
+  }
+  header div {
+    visibility: hidden;
+  }
+  #About {
+    text-align: center;
+    padding: 0 5%;
+    width: 100%;
+  }
+  #About div:first-child h2 {
+    width: 50%;
+    padding: 5% 25%;
+    font-size: 1em;
+    margin-bottom: 5%;
+  }
+  #About div:first-child img {
+    width: 80%;
+    height: 30vh;
+    margin-bottom: 3%;
+  }
+  #About div:last-child {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 5% 0;
+    margin-bottom: 25%;
+  }
+  #About div:last-child img {
+    width: 40%;
+    height: 40%;
+  }
+  #About div:last-child article {
+    width: 40%;
+    text-align: start;
+  }
+  #About div:last-child article h2 {
+    font-size: 0.8em;
+    margin-bottom: 10%;
+  }
+  #About div:last-child article p {
+    font-size: 0.3em;
+    line-height: 100%;
+    margin-bottom: 3%;
   }
 }
 
