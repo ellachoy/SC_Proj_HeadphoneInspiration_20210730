@@ -103,6 +103,7 @@ form fieldset {
   width: 80%;
   height: 30vh;
   margin: 5% 10%;
+  padding-bottom: 3%;
   color: #ebccc2;
 }
 form fieldset div {
