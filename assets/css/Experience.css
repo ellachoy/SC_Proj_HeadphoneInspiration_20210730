@@ -66,10 +66,9 @@ header div a:hover {
 aside {
   width: 50%;
   position: absolute;
-  top: 30%;
+  top: 35%;
   position: fixed;
   padding-left: 2%;
-  /* z-index: 999; */
 }
 aside div a {
   margin-left: 4%;
@@ -89,48 +88,30 @@ aside div .line {
   margin-bottom: 5%;
 }
 
-/* About */
-#About {
-  text-align: center;
-  padding: 0 5%;
-  width: 100%;
-}
-#About div:first-child h2 {
-  width: 30%;
-  padding: 5% 25%;
-  text-align: start;
-  font-size: 2em;
-  margin-bottom: 8%;
-}
-#About div:first-child img {
-  width: 90%;
-  height: 80vh;
-  padding-right: 12%;
-  margin-bottom: 8%;
-}
-#About div:last-child {
+#Experience {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding: 10% 5% 0;
-  margin-bottom: 25%;
 }
-#About div:last-child img {
-  width: 40%;
-  height: 20%;
+#Experience img {
+  width: 55%;
+  height: 100vh;
 }
-#About div:last-child article {
-  width: 40%;
-  text-align: start;
+#Experience article {
+  padding: 0 6%;
+  width: 50%;
+  height: 100vh;
 }
-#About div:last-child article h2 {
+
+#Experience article h2 {
+  margin-bottom: 30%;
   font-size: 2em;
-  margin-bottom: 10%;
+  padding-top: 50%;
 }
-#About div:last-child article p {
+#Experience article p {
+  line-height: 160%;
+  margin-bottom: 7%;
   font-size: 1em;
-  line-height: 150%;
-  margin-bottom: 3%;
 }
 
 /* laptop */

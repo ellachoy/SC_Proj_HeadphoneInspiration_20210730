@@ -66,10 +66,9 @@ header div a:hover {
 aside {
   width: 50%;
   position: absolute;
-  top: 30%;
+  top: 25%;
   position: fixed;
   padding-left: 2%;
-  /* z-index: 999; */
 }
 aside div a {
   margin-left: 4%;
@@ -88,49 +87,57 @@ aside div .line {
   margin-left: 1%;
   margin-bottom: 5%;
 }
-
-/* About */
-#About {
-  text-align: center;
-  padding: 0 5%;
-  width: 100%;
-}
-#About div:first-child h2 {
-  width: 30%;
-  padding: 5% 25%;
-  text-align: start;
-  font-size: 2em;
-  margin-bottom: 8%;
-}
-#About div:first-child img {
-  width: 90%;
-  height: 80vh;
-  padding-right: 12%;
-  margin-bottom: 8%;
-}
-#About div:last-child {
+#shop {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  padding: 10% 5% 0;
-  margin-bottom: 25%;
 }
-#About div:last-child img {
-  width: 40%;
-  height: 20%;
+#shop .BG {
+  background: url(../img/section-composition4.jpg) center/cover no-repeat;
+  width: 60%;
+  height: 100vh;
 }
-#About div:last-child article {
-  width: 40%;
-  text-align: start;
+#shop div:last-child {
+  padding: 5%;
+  text-align: center;
 }
-#About div:last-child article h2 {
+#shop div:last-child h2 {
   font-size: 2em;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
-#About div:last-child article p {
+#shop div:last-child h5 {
   font-size: 1em;
-  line-height: 150%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
+}
+#shop div:last-child a {
+  border: 1px solid #ebccc2;
+  background-color: #ebccc2;
+
+  width: 10%;
+  padding: 2% 4%;
+}
+#shop div:last-child img {
+  position: relative;
+  animation: move 0.3s linear 0s infinite alternate;
+  margin-top: 0;
+}
+@keyframes move {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    top: 0px;
+    left: 50px;
+  }
+  50% {
+    top: 0px;
+    right: 50px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
 }
 
 /* laptop */
